@@ -7,6 +7,9 @@ step 5: After Successful completion of synthesis process type "exit". -here the 
 step 6: Type "openroad openroad.tcl" in the terminal directly.
 step 7: After successful completion of openroad tool in that type "gui::show" - it will open the gui window.
 step 8: Openroad flow is completed ,the .def and .odb files are created.
+
+Note Before opening Klayout detete "sky130_fd_sc_hd_merged.lef" this file form the folter, if not remove this file klayout show duplicat file and design unable to load.
+
 step 9: Open the terminal and type "klayout -rm klayout.py" - it will open the klayout tool with floorplan view.
 
 The Klayout tool takes the output file .def form the openroad.
